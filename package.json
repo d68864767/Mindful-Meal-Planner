@@ -1,0 +1,36 @@
+{
+  "name": "mindful-meal-planner",
+  "version": "1.0.0",
+  "description": "A web and mobile application for personalized meal planning using OpenAI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mindful-meal-planner.git"
+  },
+  "keywords": [
+    "meal planning",
+    "OpenAI",
+    "nutrition",
+    "health",
+    "diet",
+    "recipe"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/mindful-meal-planner/issues"
+  },
+  "homepage": "https://github.com/yourusername/mindful-meal-planner#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.64.2",
+    "openai": "^0.0.2"
+  }
+}
